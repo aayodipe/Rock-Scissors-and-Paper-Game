@@ -14,12 +14,7 @@ const loss = document.querySelector("#loss")
 const tie = document.querySelector("#ties")
 const live = document.querySelector("#live")
 //updating html
-
-
-
 live.textContent = "Game Remaining: " +gameLeft;
-
-
 // generate random number
 function computerChoice (){
 let randomIndex= Math.floor(Math.random()*3)
@@ -27,10 +22,7 @@ compChoice = letters[randomIndex]
 computer.textContent = "Computer Choice: " + compChoice
 }
 
-/*Rock: wins against scissors, loses to paper, and ties against itself.
-Paper: wins against rock, loses to scissors, and ties against itself.
-Scissors: wins against paper, loses to rock, and ties against itself.
-*/
+
 
 //listen to user keypress
 document.onkeyup = function(event){
