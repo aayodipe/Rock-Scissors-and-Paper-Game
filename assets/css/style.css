@@ -12,7 +12,7 @@ header{
      padding-top:40px;
      text-align:center;
 }
-#user,#computer,#win,#loss,#live{
+#user,#computer,#win,#loss,#live,#ties{
  width:940px;
  padding:30px 10px 10px;
  background-color: rgba(173, 202, 245, 0.87);
