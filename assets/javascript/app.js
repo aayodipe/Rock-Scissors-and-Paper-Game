@@ -20,7 +20,8 @@ function computerChoice (){
 let randomIndex= Math.floor(Math.random()*3)
 compChoice = letters[randomIndex]
 computer.textContent = "Computer Choice: " + compChoice
-}
+console.log(compChoice)
+} 
 
 
 
@@ -40,7 +41,7 @@ document.onkeyup = function(event){
      user.textContent = "User Choice: " + userChoiceToCap;
     
      //generate computer choice after the user keypressed
-      computerChoice ();
+     computerChoice ();
       //compare computer and user answer
      
       if ((userChoiceToCap === "R" && compChoice === "S") || (userChoiceToCap === "P" && compChoice === "R") || (userChoiceToCap === "S" && compChoice === "P")){
@@ -62,16 +63,16 @@ document.onkeyup = function(event){
           isUserChoice = false
         if (wins  > losses ){
              alert(" You won!!!" )
-             startGame()
+           
         }else if(wins < losses){
              alert("Sorry you loss")
-             startGame()
+            
         }
         else {
              alert("You tie with Computer. Try Again")
-             startGame()
+           
         }
-
+        startGame()
      }
      
 }
