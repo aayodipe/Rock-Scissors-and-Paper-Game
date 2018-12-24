@@ -1,0 +1,24 @@
+body{
+     background-color:rgb(173, 169, 169);
+     width:960px;
+     height:500px;
+
+}
+header{
+     width:960px;
+     height:100px;
+     background-color: chocolate;
+     color:white;
+     padding-top:40px;
+     text-align:center;
+}
+#user,#computer,#win,#loss{
+ width:940px;
+ padding:30px 10px 10px;
+ background-color: rgba(173, 202, 245, 0.87);
+ font-weight: bold;
+ font-size: 40px;
+ color:brown
+ 
+}
+
